@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header-part-text{
+    text-align: center;
+    background-color: #74959A;
+    padding: 20px;
+    font-weight: 700;
+}
