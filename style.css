@@ -1,11 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    
+
 }
+
+/* header-text  */
 
 .header-part-text{
     text-align: center;
     background-color: #74959A;
     padding: 20px;
     font-weight: 700;
+    color: rgba(140, 198, 218, 0.945);
+    margin-bottom: 80px;
 }
+
+.article-section{
+    background-color:#EEEEEE;
+    border-radius: 10px;
+}
+/* image section */
+article img{
+    width: 590px;
+    height: 650px;
+    padding: 10px;
+    border-radius: 10px;
+       
+
+}
+
+/* counting section */
+
+.income-part{
+    text-align: center;
+    
+}
+
+
+
+.input{
+    background-color:lightgray;
+    border: none;
+    margin-top: 20px;
+    
+    
+    
+    
+}
+.button{
+    border: none;
+    background-color: skyblue;
+    margin-top: 20px;
+    padding: 8px;
+    width: 150px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.total{
+    margin-top: 20px;
+    font-weight: 700;
+
+
+}
+.button-save{
+    border: none;
+    background-color: skyblue;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 3px;
+    width: 50px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.input-save{
+    width: 70px;
+    margin:0px 10px 0px 10px ;
+}
+
