@@ -1,102 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Assignment-5</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Hard Earned Money</title>
+  </head>
 
-
-<body class="container">
-
+  <body class="container">
     <!-- header-text -->
     <header>
-        <h1 class="header-part-text">My Hard Earned Money</h1>
+      <h1 class="header-part-text">My Hard Earned Money</h1>
     </header>
 
     <main>
-        <section class="row article-section">
-           
-            <article class="col">
-            
-         <!-- image-section -->
-                    <div class="image-part">
-                      <img  src="/images/istockphoto-1317081393-170667a.jpg" alt="">
-                    </div>
-            
-                    
-            </article>
-            <article class="display col">
-            
-         
-                    <div class="income-part">
-                        <h2 class="m-3">My income</h2>
-                    </div>
+      <section class="row">
+        <div class=" col">
+          <!-- image-section -->
+          <div class=" image-part">
+            <img
+              class="img-fluid"
+              src="/images/photo_2022-02-17_15-25-41.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class=" display col article-section">
+          <div class="income-part">
+            <h2 class="m-3">My income</h2>
+          </div>
 
-                    
-
-            <div class="income-part">
-                <div>
-                    <span>income:</span>
-                    <input id="income-money" class="text-start input" type="text">
-                </div>
-    
-                
-                <div class="">
-                    <h2 class="m-3">Expenses</h2>
-                </div>
-    
-                <div >
-                    <span >Food: </span>
-                    <input id="food-price" class="text-start input" type="text">
-                </div>
-                <div >
-                    <span >Rent:</span>
-                    <input id="rent-price" class="text-start input" type="text">
-                </div>
-                <div >
-                    <span >Clothes:</span>
-                    <input id="clothes-price" class="text-start input" type="text">
-                </div>
-                <button id="calc-button"class="button">Calculate</button>
-
-                <h5 class="total">total-expenses : <span id="expenses-price"> 0</span> </h5>
-
-                <h5 class="total">Balance : <span id="balance-price">0</span></h5>
-
-                    <div >
-                        <span>Save:</span>
-                        <input id="button-input" class="input input-save" type="text">
-                        <span>%</span>
-                        <button id="button-save" class="button-save">Save</button>
-                    </div>
-
-                    <h5 class="total">Saving Amount :<span id="saving-amount">0</span> </h5>
-
-                <h5 class="total">Remaining Balance  :<span id="remaining-amount">0</span> </h5>
-
-                    
+          <div class="income-part">
+            <div>
+              <span>income:</span>
+              <input id="income-input" class="text-start input" type="text" />
             </div>
 
-            
-                    
-            </article>
-       
-            
-        </section>
+            <div class="">
+              <h2 class="m-3">Expenses</h2>
+            </div>
 
-        
-        
+            <div>
+              <span>Food: </span>
+              <input id="food-price" class="text-start input" type="text" />
+            </div>
+            <div>
+              <span>Rent:</span>
+              <input id="rent-price" class="text-start input" type="text" />
+            </div>
+            <div>
+              <span>Clothes:</span>
+              <input id="clothes-price" class="text-start input" type="text" />
+            </div>
+            <button id="calc-button" class="button">Calculate</button>
+
+            <h5 class="total">
+              total-expenses : <span id="expenses-price"> 0</span>
+            </h5>
+
+            <h5 class="total">Balance : <span id="balance-price">0</span></h5>
+
+            <div>
+              <span>Save:</span>
+              <input id="save-input" class="input input-save" type="text" />
+              <span>%</span>
+              <button id="button-save" class="button-save">Save</button>
+            </div>
+
+            <h5 class="total">
+              Saving Amount :<span id="saving-amount">0</span>
+            </h5>
+
+            <h5 class="total">
+              Remaining Balance :<span id="remaining-amount">0</span>
+            </h5>
+          </div>
+        </div>
+      </section>
     </main>
 
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

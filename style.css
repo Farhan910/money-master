@@ -15,19 +15,37 @@ body{
     background-color: #74959A;
     padding: 20px;
     font-weight: 700;
-    color: rgba(140, 198, 218, 0.945);
+    color: white;
     margin-bottom: 80px;
 }
+@media screen and (max-width: 576px) {
+    .header-part-text{
+        text-align: center;
+        background-color: #74959A;
+        padding: 10px;
+        font-weight: 400;
+        color: white;
+        margin-bottom: 40px;
+    }
+
+
+    /* .image-part img{
+        border-radius: 10px;
+        
+        
+        height: 400px;
+    } */
+}
+
 
 .article-section{
-    background-color:#EEEEEE;
+    background-color:#21325E;
     border-radius: 10px;
+    color: white;
 }
 /* image section */
-article img{
-    width: 590px;
-    height: 650px;
-    padding: 10px;
+.image-part img{
+    width: 600px;
     border-radius: 10px;
        
 
