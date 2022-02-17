@@ -1,90 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-    
-
+/* --------------default css----------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
 }
 
-/* header-text  */
+/* -----------------header-text----------------  */
 
-.header-part-text{
-    text-align: center;
-    background-color: #74959A;
-    padding: 20px;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 80px;
+.header-part-text {
+  text-align: center;
+  background-color: #74959a;
+  padding: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 80px;
 }
 
-
-
-.get-income{
-    background-color:#21325E;
-    border-radius: 10px;
-    color: white;
+/* --------------income part ------------*/
+.get-income {
+  background-color: #21325e;
+  border-radius: 10px;
+  color: white;
 }
-/* image section */
-.image-part img{
-    width: 600px;
-    border-radius: 10px;
-    height: 670px;
-       
-
+/*----------------------- image section--------------- */
+.image-part img {
+  width: 600px;
+  border-radius: 10px;
+  height: 670px;
 }
 
-/* counting section */
+/*------------------full  counting section-------------------*/
 
-.income-part{
-    text-align: center;
-    
-    
+.income-part {
+  text-align: center;
 }
 
+/*-------------------- inputs section---------------------- */
 
-
-.inputs{
-    background-color:lightgray;
-    border: none;
-    margin-top: 20px;
-    outline: none;
-    border-radius: 4px;
-    padding: 5px;
-   
-
-    
-    
-    
-}
-.button-calc{
-    border: none;
-    background-color: skyblue;
-    margin-top: 20px;
-    padding: 8px;
-    width: 150px;
-    font-weight: 700;
-    border-radius: 5px;
-}
-.total{
-    margin-top: 20px;
-    font-weight: 700;
-
-
-}
-.button-save{
-    border: none;
-    background-color: skyblue;
-    margin-top: 20px;
-    margin-left: 5px;
-    padding: 3px;
-    width: 50px;
-    font-weight: 700;
-    border-radius: 5px;
-}
-.input-save{
-    width: 70px;
-    margin:0px 10px 0px 10px ;
+.inputs {
+  background-color: lightgray;
+  border: none;
+  margin-top: 20px;
+  outline: none;
+  border-radius: 4px;
+  padding: 5px;
 }
 
+/* ------------------calculate button---------------------- */
+.button-calc {
+  border: none;
+  background-color: skyblue;
+  margin-top: 20px;
+  padding: 8px;
+  width: 150px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+/* ----------------total of all count -----------------*/
+.total {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+/*--------------------- save money button -----------------------*/
+.button-save {
+  border: none;
+  background-color: skyblue;
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 3px;
+  width: 50px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+/*---------------------- saving input--------------------- */
+.input-save {
+  width: 70px;
+  margin: 0px 10px 0px 10px;
+}
