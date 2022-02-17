@@ -28,7 +28,7 @@ function getClick(click) {
       alert("Please give a valid Rent price!!");
       rentPrice = "";
     }
-    if (isNaN(clothesPrice) != 0 || clothesPrice <= 0) {
+    if (isNaN(clothesPrice) != 0 || clothesPrice <=0) {
       alert("Please give a valid Clothes price !!");
       clothesPrice = "";
     }
@@ -62,7 +62,7 @@ function getClick(click) {
     let saveInput = document.getElementById("save-input").value;
     const savingAmount = document.getElementById("saving-amount");
     if (isNaN(saveInput) != 0  || saveInput <=0) {
-      alert(" give a valid save input if you have to save your money ");
+      alert(" give a valid save input if you have to save your money ! ");
       
     }
 
@@ -78,7 +78,7 @@ function getClick(click) {
     // <-------------------another error handling for balance output --------------->
     if(balanceOutput < userSaving){
         alert ('Dont do this !!')
-        remainingAmount.innerText = ' 0';
+        
        
     }
 
