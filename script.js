@@ -56,23 +56,23 @@ function getClick(click) {
 
   //   <-------------------save money section------------------->
   document.getElementById(click).addEventListener("click", function () {
-    let saveInput = document.getElementById("save-input").value;
+    let savedInput = document.getElementById("save-input").value;
     const savingAmount = document.getElementById("saving-amount");
-    if (isNaN(saveInput) != 0 || saveInput <= 0) {
+    if (isNaN(savedInput) != 0 || savedInput <= 0) {
       alert(" give a valid save input if you have to save your money ! ");
     }
 
     // <-----------counting the save money percentage and get total to remaining ------------>
     let myIncome = getIncome();
-    let userSaving = (saveInput * myIncome) / 100;
-    savingAmount.innerText = userSaving;
+    let userSavings = (savedInput * myIncome) / 100;
+    savingAmount.innerText = userSavings;
     let remainingAmount = document.getElementById("remaining-amount");
     let balanceOutput = document.getElementById("balance-output").innerText;
-    let totalRemain = balanceOutput - userSaving;
-    remainingAmount.innerText = totalRemain;
+    let totalRemaining = balanceOutput - userSavings;
+    remainingAmount.innerText = totalRemaining;
 
     // <-------------------another error handling for balance output --------------->
-    if (balanceOutput < userSaving) {
+    if (balanceOutput < userSavings) {
       alert("Dont do this !!");
     }
   });
