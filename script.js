@@ -13,29 +13,29 @@ function getIncome() {
 // --------------<var-declination----------->
 function getClick(click) {
   document.getElementById(click).addEventListener("click", function () {
-    const foodPrice = document.getElementById("food-price").value;
-    const rentPrice = document.getElementById("rent-price").value;
-    const clothesPrice = document.getElementById("clothes-price").value;
+    const foodCost = document.getElementById("food-cost").value;
+    const rentCost = document.getElementById("rent-cost").value;
+    const clothesCost = document.getElementById("clothes-cost").value;
 
     // <------------------Error- Handling for Expenses------------->
 
-    if (isNaN(foodPrice) != 0 || foodPrice <= 0) {
+    if (isNaN(foodCost) != 0 || foodCost <= 0) {
       alert("Please give a valid Food price !!");
       foodPrice = "";
     }
 
-    if (isNaN(rentPrice) != 0 || rentPrice <=0) {
+    if (isNaN(rentCost) != 0 || rentCost <=0) {
       alert("Please give a valid Rent price!!");
-      rentPrice = "";
+      rentCost = "";
     }
-    if (isNaN(clothesPrice) != 0 || clothesPrice <=0) {
+    if (isNaN(clothesCost) != 0 || clothesCost <=0) {
       alert("Please give a valid Clothes price !!");
-      clothesPrice = "";
+      clothesCost = "";
     }
 
     // <---------------counting the sum of Expenses -------------> 
 
-    const totalCostPrice = parseFloat(foodPrice) + parseFloat(rentPrice) + parseFloat(clothesPrice);
+    const totalCostPrice = parseFloat(foodCost) + parseFloat(rentCost) + parseFloat(clothesCost);
 
     let totalExpenses = (document.getElementById("total-expenses").innerText =
       totalCostPrice);
